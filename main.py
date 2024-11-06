@@ -1,7 +1,7 @@
 import requests
 from urllib.parse import urlparse, parse_qs
 import hashlib
-
+import time
 headers = {
     'accept': 'application/json, text/plain, */*',
     'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
